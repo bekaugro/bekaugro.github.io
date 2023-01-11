@@ -1,0 +1,153 @@
+.MainText{
+    position: absolute;
+    top: 0.5cm;
+    bottom: 0.5cm;
+    left: 13.25cm;
+    font-size: 1.25cm;
+    font-weight: 900;
+}
+
+
+
+
+.btn{
+    border-radius: 40px;
+    border: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 700;
+    margin: 1rem 0;
+    padding: 2rem 3rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer; 
+    margin-bottom: 2cm; 
+}
+
+.btnOne{
+    background: blue;
+    color: white;
+    position: center;
+
+}
+.btnOne:hover{
+    background: rgb(0, 187, 255);
+}
+
+
+.btnTwo{
+    background: rgb(0, 0, 0);
+    color: white;
+
+}
+.btnTwo:hover{
+    background: rgb(0, 187, 255);
+}
+
+
+.btnThree{
+    background: rgb(255, 243, 243);
+    color: rgb(0, 0, 0);
+    
+}
+.btnThree:hover{
+    background: rgb(0, 187, 255);
+}
+
+
+.btnFour{
+    background: rgb(255, 0, 0);
+    color: white;
+
+}
+.btnFour:hover{
+    background: rgb(0, 187, 255);
+}
+
+.background-image{
+    margin: 0;
+    padding: 0;
+    background-image: url(./1200px-Burg_Hohenzollern_ak.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+    height: 150vh;
+}
+
+.loginbox{
+    width: 320px;
+    height: 430px;
+    background: rgba(255, 255, 255, 0.725);
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50px);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+.loginbox input{
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.loginbox input [type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #000;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000;
+}
+
+.login a:hover{
+    color: #ffc107;
+}
