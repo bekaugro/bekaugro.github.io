@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<div class="background-image"></div>
+<body>
+    <div class="loginbox">
+    <img src="avatar.png" class="avatar">
+        <center>
+            <h1>Login Here</h1>
+        </center>
+        <form>
+            <center>
+                <p>Username</p>
+                <input type="text" id="username" placeholder="Enter Username">
+                <p>Password</p>
+                <input type="text" id="password" placeholder="Enter Password"><br>
+                <input type="submit" name="" value="Login" onclick="auth()"><br>
+                <a href="#" onclick="alert('Smash your PC with a HAMMER')">Lost your password?</a><br><br>
+                <a href="#" onclick="alert('Smash your PC with a HAMMER and light it on FIRE')">Don't have an account?</a>
+            </center>
+        </form>
+        
+    </div>
+
+<script>
+    function auth(){
+        var username=document.getElementById("username").value;
+        var password=document.getElementById("password").value;
+        if(username=='meme' && password=='eurokrem'){
+        window.open(href="MajesticConsoles.html")
+        }
+        else{
+            alert('Invalid Username or Password');
+            return;
+        }
+    }
+    
+</script>
+</body>
+</body>
+</html>
